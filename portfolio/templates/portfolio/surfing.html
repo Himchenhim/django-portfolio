@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Surfing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="{% static 'portfolio/surfing.css' %}">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Playfair+Display:400,400i&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="build/js/script.js"></script>
+</head>
+<body>
+	<div class="nav-wrapper">
+		<div class="logo">
+			<a href="#">
+			<img src="{% static 'portfolio/img_surfing/logo/logo-1.jpg'%}" alt="Long Beach Surfing Institute">
+			</a>
+		</div>
+		<div class="nav">
+			
+			<a href="#" class="nav__item nav__item--active">Home</a>
+			<a href="#" class="nav__item">About</a>
+			<a href="#" class="nav__item">Blog</a>
+			<a href="#" class="nav__item">Contact</a>
+
+		</div>
+	</div>	
+	<header class="header-wrapper">
+		<!-- header-title -->
+		<h1 class="header-title">Long Beach Surfing Institute</h1>
+		<div class="header-description">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+		<!-- header-title -->
+		
+		<!-- header-content -->
+		<div class="header-content">
+			<!--reviews-->
+			<div class="reviews">
+				<div class="reviews__title">Recent Reviews</div>
+			
+				<div class="review-item">
+					<div class="review-item__quotation">
+					<div class="review-item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed incididunt ut labore et dolore magn.</div>
+					<div class="review-item__author">Steve Woz</div>	
+					</div>
+					<div class="review-item__quotation">
+					<div class="review-item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed incididunt ut labore et dolore magn.</div>
+					<div class="review-item__author">David Collum</div>	
+					</div>
+				</div>
+			</div>
+			<!--reviews-->
+
+
+			<!--video center-->
+			<div class="video-center">
+				<div class="play-icon"></div>
+				<img src="{% static 'portfolio/img_surfing/video/img-1.jpg'%}" alt="video" width="100%">
+			</div>
+			<!--video center-->
+
+
+
+			<!--videos right-->
+			<div class="video">
+				<div class="video__title">
+					User Videos
+				</div>
+				<div class="video-item">
+					<div class="play-icon"></div>
+					<img src="{% static 'portfolio/img_surfing/video/img-2.jpg'%}" alt="video">
+				</div>
+				<div class="video-item">
+					<div class="play-icon"></div>
+					<img src="{% static 'portfolio/img_surfing/video/img-3.jpg'%}" alt="video">
+				</div>
+			<!--videos right-->
+			</div>	
+		</div>
+		<!-- header-content -->
+	</header>
+
+
+	<main class="container">
+		<!--Popular Instractors-->
+		<h2 class="header-1">Popular Instractors</h2>
+		<!--instructors-wrapper-->
+		<div class="instructors-wrapper">
+		<div class="instructor">
+			<div class="instructor__photo">
+
+				<img src="{% static 'portfolio/img_surfing/instructors/instructor-1.jpg'%}" alt="Elvis" max-width="291px">
+				
+			</div>
+			<div class="instructor__name">Simon Adward</div>
+			<div class="instructor__students">5,000 students</div>
+		</div>
+		
+		<div class="instructor">
+			<div class="instructor__photo">
+				<img src="{% static 'portfolio/img_surfing/instructors/instructor-2.jpg'%}" alt="Elvis" max-width="291px">
+			</div>
+			<div class="instructor__name">Elliana D’Soza
+			</div>
+				<div class="instructor__students">4,350 students
+			</div>
+
+		</div>
+		<div class="instructor">
+			<div class="instructor__photo">
+				<img src="{% static 'portfolio/img_surfing/instructors/instructor-3.jpg'%}" alt="Elvis" max-width="291px">
+			</div>
+			<div class="instructor__name">Joseph Bardon
+			</div>
+				<div class="instructor__students">3,248 students</div>
+			</div>
+		</div>
+		<!-- //instructors-wrapper-->
+		<!--Popular Instractors-->
+
+		<!--Resent Blogs by User-->
+		<h2 class="header-1">Resent Blogs by User</h2>
+
+		<div class="blog-item">
+			
+			<div class="blog-item__image"><img src="{% static 'portfolio/img_surfing/blog/blog-1.jpg'%}" alt="Surfing" min-width="320px" max-width="523px">
+			</div>
+			<div class="blog-item-content">
+				<div class="blog-item__header">Lipsum cound be headline </div>
+				<p class="blog-item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<a href="#" class="blog-item__readmore">Read More
+				</a>		
+			</div>
+
+		</div>
+		<div class="blog-item">
+			
+			<div class="blog-item__image"><img src="{% static 'portfolio/img_surfing/blog/blog-2.jpg'%}" alt="Surfing" max-width="523px" min-width="320px">
+			</div>
+			<div class="blog-item-content">
+				<div class="blog-item__header">Lipsum cound be headline </div>
+				<p class="blog-item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<a href="#" class="blog-item__readmore">Read More
+				</a>		
+			</div>
+
+		</div>
+		<!--Resent Blogs by User--> 
+		<div class="cta-section text-center">
+		<h2 class="header-1 header-1--cta" >Aren’t you intrested Yet!!</h2>
+
+		<a href="#" class="button">Enroll Now</a>
+		</div>
+		<!--Resent Blogs by User--> 
+	</main>
+	<footer class="footer">
+		
+		<div class="footer-container">
+		
+
+		<div class="footer-copyright">
+			<div class="footer-copyright__title">Beach Surfing</div>
+			<div class="footer-copyright__text">Copyright © 2018 All Rights Reserved.</div>
+		</div>
+
+
+		<div class="footer-desighnby">Designed by  <strong>Rikon Rahman</strong></div>
+		
+		
+		</div>
+	</footer>
+</body>
+</html>
